@@ -1,0 +1,5 @@
+package com.openclassrooms.starterjwt.controllers.TI;
+
+public class TeacherControllerTI {
+
+}

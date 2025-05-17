@@ -1,4 +1,4 @@
-package com.openclassrooms.starterjwt.services;
+package com.openclassrooms.starterjwt.services.TU;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -28,9 +28,10 @@ import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.models.User;
 import com.openclassrooms.starterjwt.repository.SessionRepository;
 import com.openclassrooms.starterjwt.repository.UserRepository;
+import com.openclassrooms.starterjwt.services.SessionService;
 
 @SpringBootTest
-public class SessionServiceTu {
+public class SessionServiceTU {
 
     @Mock
     private SessionRepository sessionRepository;

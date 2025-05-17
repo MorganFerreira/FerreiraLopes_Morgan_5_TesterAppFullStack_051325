@@ -1,4 +1,4 @@
-package com.openclassrooms.starterjwt.services;
+package com.openclassrooms.starterjwt.services.TU;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.times;
@@ -18,9 +18,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.repository.TeacherRepository;
+import com.openclassrooms.starterjwt.services.TeacherService;
 
 @SpringBootTest
-public class TeacherServiceTu {
+public class TeacherServiceTU {
 
     @Mock
     private TeacherRepository teacherRepository;
