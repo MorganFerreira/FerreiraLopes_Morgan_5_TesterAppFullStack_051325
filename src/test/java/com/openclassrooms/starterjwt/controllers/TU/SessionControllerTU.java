@@ -217,7 +217,7 @@ public class SessionControllerTU {
 	}
 	
 	@Test
-	@DisplayName("Supprime une session pqr son Id mais ne le trouve pas")
+	@DisplayName("Supprime une session par son Id mais ne le trouve pas")
 	public void givenSessionIdNotFound_whenDelete_thenThrowNotFoundException() {
 
 		// ARRANGE : un sessionId et un mock de sessionService

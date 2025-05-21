@@ -76,7 +76,6 @@ public class SessionServiceTU {
         // ASSERT : on veux retrouver les même objets et vérifier que sessionRepository a été appelé une fois
         assertEquals(session, sessionCreated);
         verify(sessionRepository, times(1)).save(session);
-
     }
 
     @Test
@@ -219,7 +218,6 @@ public class SessionServiceTU {
 
         //ASSERT : on veux une exception de type BadRequestException lors de l'appel à noLongerParticipate
         assertThrows(BadRequestException.class, () -> sessionService.noLongerParticipate(1L, 1L));        
-
     }
     
     @Test
@@ -233,6 +231,5 @@ public class SessionServiceTU {
 
         //ASSERT : on veux une exception de type NotFoundException lors de l'appel à noLongerParticipate
         assertThrows(NotFoundException.class, () -> sessionService.noLongerParticipate(1L, 1L));        
-
     }
 }

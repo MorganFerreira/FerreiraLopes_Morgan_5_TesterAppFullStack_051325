@@ -150,7 +150,7 @@ public class UserControllerTU {
     }
 
     @Test
-    @DisplayName("Delete un user par son Id mais son Id n'est pas un nombre")
+    @DisplayName("Supprime un user par son Id mais son Id n'est pas un nombre")
     public void givenUserIdWhereIdIsNotANumber_whenDeleteById_thenThrowBadRequestException() {
     	
     	// ACT : appel de deleteById de userController
